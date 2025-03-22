@@ -7,7 +7,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "Center One"
+            "pathName": "Red Bottom One"
           }
         },
         {
@@ -19,7 +19,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "Center Two"
+            "pathName": "Red Bottom Two"
           }
         },
         {
@@ -31,7 +31,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "Center Three"
+            "pathName": "Red Bottom Three"
           }
         },
         {
@@ -43,7 +43,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "Center Four"
+            "pathName": "Red Bottom Four"
           }
         },
         {
@@ -55,7 +55,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "Center Five"
+            "pathName": "Red Bottom Five"
           }
         },
         {
@@ -68,6 +68,6 @@
     }
   },
   "resetOdom": true,
-  "folder": null,
+  "folder": "Red",
   "choreoAuto": false
 }

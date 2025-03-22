@@ -7,7 +7,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "Blue Top "
+            "pathName": "Blue Top One"
           }
         },
         {
@@ -19,7 +19,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "Blue Top Two "
+            "pathName": "Blue Top Two"
           }
         },
         {
@@ -31,7 +31,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "Blue Top Three "
+            "pathName": "Blue Top Three"
           }
         },
         {
@@ -43,13 +43,31 @@
         {
           "type": "path",
           "data": {
-            "pathName": "Blue Top Four "
+            "pathName": "Blue Top Four"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake Coral"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Blue Top Five"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Score"
           }
         }
       ]
     }
   },
   "resetOdom": true,
-  "folder": null,
+  "folder": "Blue",
   "choreoAuto": false
 }

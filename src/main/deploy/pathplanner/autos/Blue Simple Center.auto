@@ -7,19 +7,13 @@
         {
           "type": "path",
           "data": {
-            "pathName": "Blue Simple Center One"
+            "pathName": "Blue Simple Center"
           }
         },
         {
           "type": "named",
           "data": {
             "name": "Score"
-          }
-        },
-        {
-          "type": "wait",
-          "data": {
-            "waitTime": 1.0
           }
         },
         {
@@ -32,6 +26,6 @@
     }
   },
   "resetOdom": true,
-  "folder": null,
+  "folder": "Blue",
   "choreoAuto": false
 }
