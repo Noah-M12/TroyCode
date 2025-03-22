@@ -39,6 +39,11 @@ public class AlgeaIntake extends SubsystemBase{
 
     public void runRotation(double speed) {
         SmartDashboard.putNumber("Algea Rotation Encoder", rotation_Encoder.getPosition());
+      //  if(rotation_Encoder.getPosition() >= -10 && rotation_Encoder.getPosition() <= 5) {
+       //     rotationMotor.set(speed);
+        //} else {
+          //  rotationMotor.set(0);
+       // }
         rotationMotor.set(speed);
       //  Algea_Wheel.set(speed);
 

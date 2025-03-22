@@ -154,7 +154,7 @@ private final SendableChooser<Command> autoChooser;
     m_driverController.y().whileTrue(new ResetGyro(m_robotDrive));
 
     //Intake Floor Coral
-    m_driverController.x().whileTrue(new Run_Floor_Wheel(floor_Intake, -0.3)); 
+    m_driverController.x().whileTrue(new Run_Floor_Wheel(floor_Intake, -0.85)); 
     
     //Spit Out Floor Coral
     m_driverController.a().whileTrue(new Run_Floor_Wheel(floor_Intake, 0.75)); 
