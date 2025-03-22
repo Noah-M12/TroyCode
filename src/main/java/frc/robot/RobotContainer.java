@@ -75,7 +75,7 @@ private final SendableChooser<Command> autoChooser;
 
     // Register Named Commands
     NamedCommands.registerCommand("Lift Intake", new Intake_Lift(Pneunamatics));
-    NamedCommands.registerCommand("Score", new Run_Shooter_Auto(shooter, -0.25, -0.15).withTimeout(1));
+    NamedCommands.registerCommand("Score", new Run_Shooter_Auto(shooter, -0.35, -0.25).withTimeout(1));
     NamedCommands.registerCommand("Intake Coral", new Run_Shooter_Auto(shooter, 0,-0.2).withTimeout(1));
    // NamedCommands.registerCommand("Timed Intake Coral", new Timer_Run_Shooter(shooter, 0,-0.2));
     //NamedCommands.registerCommand("Stop Intake Coral", new Stop_Auto_Intake(shooter));
