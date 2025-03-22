@@ -56,10 +56,13 @@ public class Pneunamatics extends SubsystemBase {
         x = compressor.getPressure();
         return x; 
     }
-
-    public void printData(SmartDashboard s) {
-        //s.putNumber("Pressure", getPressure());
+    //@Override
+    public void periodic() {
+        compressor.getPressure();
+        SmartDashboard.putNumber("Pressure", getPressure());
+        super.periodic();
     }
+    
     
 
     
