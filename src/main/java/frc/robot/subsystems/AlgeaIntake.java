@@ -27,6 +27,10 @@ public class AlgeaIntake extends SubsystemBase{
         SmartDashboard.putNumber("Algea Rotation Encoder", rotation_Encoder.getPosition());
         
     }
+    public void periodic() {
+        rotation_Encoder.getPosition();
+        super.periodic();
+    }
 
 
     public void runWheel(double speed) {
