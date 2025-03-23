@@ -3,13 +3,12 @@
   "robotLength": 0.9,
   "holonomicMode": true,
   "pathFolders": [
-    "Bottom",
-    "Center",
-    "Red Center ",
+    "Blue Bottom",
+    "Blue Center",
+    "Blue Top",
     "Red Bottom",
-    "Red Simple Center",
-    "Red Top ",
-    "Top"
+    "Red Center",
+    "Red Top"
   ],
   "autoFolders": [
     "Blue",
@@ -40,7 +39,7 @@
   "bumperOffsetX": 0.0,
   "bumperOffsetY": 0.0,
   "robotFeatures": [
-    "{\"name\":\"Rectangle\",\"type\":\"rounded_rect\",\"data\":{\"center\":{\"x\":0.3,\"y\":0.15},\"size\":{\"width\":0.1,\"length\":0.1},\"borderRadius\":0.05,\"strokeWidth\":0.02,\"filled\":false}}",
+    "{\"name\":\"Rectangle\",\"type\":\"rounded_rect\",\"data\":{\"center\":{\"x\":0.3,\"y\":0.2},\"size\":{\"width\":0.1,\"length\":0.1},\"borderRadius\":0.05,\"strokeWidth\":0.02,\"filled\":false}}",
     "{\"name\":\"Rectangle\",\"type\":\"rounded_rect\",\"data\":{\"center\":{\"x\":0.0,\"y\":0.3},\"size\":{\"width\":0.1,\"length\":0.2},\"borderRadius\":0.05,\"strokeWidth\":0.02,\"filled\":false}}"
   ]
 }
